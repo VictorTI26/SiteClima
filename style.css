@@ -1,0 +1,51 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+    background-color: #80CED7;
+}
+
+#main{
+  background-color: #CCDBDC;
+  text-align: center;
+  padding: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  border-radius: 5px 20px 5px 20px;
+  color: #003249;
+  font-family: 'Montserrat', sans-serif;;
+}
+
+#botao-buscar{
+ border: none; 
+ color: #003249;
+ background-color: #80CED7;
+ padding: 2%;
+ border-radius: 20px;
+ margin-left: 5%;
+ width: 20%;
+}
+
+#campo-cidade{
+  border: none; 
+  background-color: #80CED7;
+  padding: 2%;
+  border-radius: 20px;
+  width: 50%;
+  color: #003249;
+}
+
+input::placeholder {
+  color:#003249;
+}
+
+@media screen and (max-width: 768px){
+  #main {
+    margin: 20% auto;
+    padding: 5%;
+    margin-inline: 5%;
+  }
+
+  #campo-cidade {
+    width: 50%;
+  }
+}
