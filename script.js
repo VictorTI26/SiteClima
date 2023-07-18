@@ -17,6 +17,9 @@ botaoBuscar.addEventListener("click", async () => {
         <p><i class="fa-solid fa-location-dot"></i> ${consulta.location.name}</p>
         <p><i class="fa-solid fa-sun"></i> ${consulta.current.temp_c}°C</p>
         <p><i class="fa-solid fa-droplet"></i> ${consulta.current.humidity}%</p>
+        <p><i class="fa-solid fa-wind"></i> ${consulta.current.wind_kph}kmh</p>
+        <p><i class="fa-solid fa-person"></i> ${consulta.current.feelslike_c}°C</p>
+
       `;
     }
   } catch (error) {
